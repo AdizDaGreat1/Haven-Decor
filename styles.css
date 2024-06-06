@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    /* outline: 1px solid red; */
+  }
+  main {
+    margin: 10px;
+  }
+  
+  .membership {
+    background-color: #2f323a;
+    display: flex;
+    border-bottom: #367144 2px solid;
+    color: white;
+  }
+  
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 0;
+  }
+  
+  .membership-title {
+    background-color: #367144;
+    width: 150px;
+    text-align: center;
+    /* padding: 0 20px 0 40px; */
+  }
+  .membership-title h1 {
+    font-size: medium;
+    padding: 0 20px;
+  }
+  .right-container p {
+    padding-left: 35px;
+  }
+  .svg {
+    width: 30px;
+  }
+  .logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-wrapper-main {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    padding: 0 20px;
+    margin-right: 70px;
+  }
+  .head{
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+  .lastname{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    margin-left: 50px;
+  }
+.index{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+h6{
+  margin-left: 50px;
+  font-size: medium;
+}
+.addresses{
+  margin-bottom: 30px;
+}
+#address{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  gap: 2rem;
+}
+#province{
+  display: flex;
+    flex-direction: row;
+    gap: 5.3rem;
+    margin-left: 50px;
+}
+.email{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.inform{
+  display:flex;
+  gap: 1rem;
+}
+.gender{
+  display: flex;
+  gap: 1rem;
+}
+.inp{
+  display: flex;
+  gap: 2rem;
+  margin-left: 50px;
+}
+.end{
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  margin-left: 50px;
+}
+.ending{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  gap: 1rem;
+}
+.ending input{
+  width: 170px;
+}
+.cellular input{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+button{
+  margin-left: 100px;
+  width: 300px;
+  background-color: #0B5DD5;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+}
+  footer {
+    background-color: #2f323a;
+    color: white;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    border-bottom: #367144 2px solid;
+    width: 500px;
+    margin-left: 35%;
+  }
+  .membership{
+    width: 500px;
+  }
+  main{
+    margin-left: 35%;
+  }

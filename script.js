@@ -21,11 +21,5 @@ myInfo.innerHTML = `
 <button type="submit" class="btn btn-primary" onclick="info()">Submit</button>
 </form>`
 function account(){
-    return window.location.href = `signup.html`
+    return window.location.href = `form.html`
 };
-function info(){
-    let email = document.getElementById("exampleInputEmail1");
-    let passWord = document.getElementById("exampleInputPassword1");
-    
-}
-info()
